@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="NvENCBenchmarkLowLatency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NvEncoderCommandParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NvEncoderPreProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\NVIDIAVideoCodecSDK\src\dynlink_cuda.cpp">
+      <Filter>NVENC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\NVIDIAVideoCodecSDK\src\NvHWEncoder.cpp">
+      <Filter>NVENC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NvENCBenchmarkLowLatency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NVENC">
+      <UniqueIdentifier>{4141289d-a327-4cbb-8ac3-fc4c3d8a20b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{095c47e5-18aa-442b-aad0-25f23d485ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ffa243d2-7c41-4c01-b4a0-1a54cd7199df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{d4b14ce5-d298-446c-a00e-21b3e6f2007d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="IntraRefresh.txt">
+      <Filter>Config</Filter>
+    </Text>
+    <Text Include="Reconfigure.txt">
+      <Filter>Config</Filter>
+    </Text>
+    <Text Include="RefpicInvalidate.txt">
+      <Filter>Config</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="preproc.cu">
+      <Filter>Config</Filter>
+    </None>
+  </ItemGroup>
+</Project>

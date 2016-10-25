@@ -1,0 +1,23 @@
+# Intermediate and output files
+AMDVceBenchmark/bin/
+AMDVceBenchmark/obj/
+NvENCBenchmark/bin/
+NvENCBenchmark/obj/
+NvENCBenchmarkLowLatency/bin/
+NvENCBenchmarkLowLatency/obj/
+NvENCBenchmarkD3DInterop/bin/
+NvENCBenchmarkD3DInterop/obj/
+
+# VS database
+AMDVceBenchmark/.vs/
+AMDVceBenchmark/AMDVceBenchmark.VC.VC.opendb
+AMDVceBenchmark/AMDVceBenchmark.VC.db
+NvENCBenchmark/.vs/
+NvENCBenchmark/NvENCBenchmark.VC.VC.opendb
+NvENCBenchmark/NvENCBenchmark.VC.db
+NvENCBenchmarkLowLatency/.vs/
+NvENCBenchmarkLowLatency/NvENCBenchmarkLowLatency.VC.VC.opendb
+NvENCBenchmarkLowLatency/NvENCBenchmarkLowLatency.VC.db
+NvENCBenchmarkD3DInterop/.vs/
+NvENCBenchmarkD3DInterop/NvENCBenchmarkD3DInterop.VC.VC.opendb
+NvENCBenchmarkD3DInterop/NvENCBenchmarkD3DInterop.VC.db

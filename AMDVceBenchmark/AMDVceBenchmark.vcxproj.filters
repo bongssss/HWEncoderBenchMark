@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AMDVceBenchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\AMDAMF\amf\public\common\AMFFactory.cpp" />
+    <ClCompile Include="..\Common\AMDAMF\amf\public\common\Thread.cpp" />
+    <ClCompile Include="..\Common\AMDAMF\amf\public\common\Windows\ThreadWindows.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bmp.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\AMDAMF\amf\public\common\AMFFactory.h" />
+    <ClInclude Include="..\Common\AMDAMF\amf\public\common\Thread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{edc73973-bb04-4b12-81bd-31435fef3902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header FIles">
+      <UniqueIdentifier>{d33eea2c-b258-436f-a7a7-3bd8b9d889f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AMF">
+      <UniqueIdentifier>{0a4edda3-3560-4b7b-9c60-0e5bfc1a0a87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="NvENCBenchmark.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NVENC">
+      <UniqueIdentifier>{eb6cabe6-13e7-4470-a179-424962b6c4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9fa9a2f8-8c39-4eb6-804a-8ec6f90bdaaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header FIles">
+      <UniqueIdentifier>{b4ec326f-2116-46cf-95a1-990a28b55df0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NvENCBenchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\NVIDIAVideoCodecSDK\src\dynlink_cuda.cpp">
+      <Filter>NVENC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\NVIDIAVideoCodecSDK\src\NvHWEncoder.cpp">
+      <Filter>NVENC</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
